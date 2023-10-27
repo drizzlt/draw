@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T12:02:13.648Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Lsc_3Pi6j9ycWgfEkLbm" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T12:55:36.689Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ALrJnE5Lyh9DAqF4Cll-" version="20.8.22" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="827" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         <mxCell id="XWH6-G-QCLqWxmdfOk9X-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NQLpRkI1rYadRzuyis0T-2" target="XWH6-G-QCLqWxmdfOk9X-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XWH6-G-QCLqWxmdfOk9X-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NQLpRkI1rYadRzuyis0T-2" target="XWH6-G-QCLqWxmdfOk9X-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NQLpRkI1rYadRzuyis0T-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Archive destroy&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- what?&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- when?&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="615" y="510" width="160" height="90" as="geometry" />
         </mxCell>
@@ -50,11 +53,20 @@
         <mxCell id="XWH6-G-QCLqWxmdfOk9X-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Custom Archive destroy&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- what? query domain and data&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- when? schedule: trigger on demand / once with date from catalog&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="920" y="510" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="XWH6-G-QCLqWxmdfOk9X-17" value="Replace with" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="795" y="525" width="90" height="30" as="geometry" />
+        <mxCell id="XWH6-G-QCLqWxmdfOk9X-17" value="Replace with?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="525" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XWH6-G-QCLqWxmdfOk9X-20" value="Deletion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="250" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XWH6-G-QCLqWxmdfOk9X-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XWH6-G-QCLqWxmdfOk9X-21" target="XWH6-G-QCLqWxmdfOk9X-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWH6-G-QCLqWxmdfOk9X-21" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;we cannot manualy delete archived records&lt;/span&gt;&lt;/li&gt;&lt;li&gt;we cannot use archive destroy with condition other than record age&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="640" width="327.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XWH6-G-QCLqWxmdfOk9X-23" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;we might be able to use table cleaner instead&lt;/li&gt;&lt;li&gt;we should create ticket to servicenow if there is something we could do for domain separated tables.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="730" width="327.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
