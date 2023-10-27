@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T11:41:05.752Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EPwJp-66bQFR012u0ASn" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T12:02:13.648Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Lsc_3Pi6j9ycWgfEkLbm" version="20.8.22" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="1199" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="827" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -9,17 +9,17 @@
         </mxCell>
         <mxCell id="8ovKBdUxqVshIQzWrQ2V-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8ovKBdUxqVshIQzWrQ2V-2" target="XWH6-G-QCLqWxmdfOk9X-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="780" y="285" as="targetPoint" />
+            <mxPoint x="560" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovKBdUxqVshIQzWrQ2V-2" value="offboarding" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="240" width="220" height="50" as="geometry" />
+          <mxGeometry x="100" y="250" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8ovKBdUxqVshIQzWrQ2V-3" value="ITEM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="405" y="210" width="50" height="30" as="geometry" />
+          <mxGeometry x="140" y="220" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8ovKBdUxqVshIQzWrQ2V-5" value="ITEM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="725" y="210" width="50" height="30" as="geometry" />
+          <mxGeometry x="310" y="220" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8ovKBdUxqVshIQzWrQ2V-8" value="Archive/ Archive destroy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="445" y="410" width="300" height="90" as="geometry" />
@@ -39,14 +39,22 @@
         <mxCell id="XWH6-G-QCLqWxmdfOk9X-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ovKBdUxqVshIQzWrQ2V-2" target="8ovKBdUxqVshIQzWrQ2V-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XWH6-G-QCLqWxmdfOk9X-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XWH6-G-QCLqWxmdfOk9X-2" target="XWH6-G-QCLqWxmdfOk9X-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="269.9655172413793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XWH6-G-QCLqWxmdfOk9X-2" value="Archive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="220" height="50" as="geometry" />
+          <mxGeometry x="280" y="250" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XWH6-G-QCLqWxmdfOk9X-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Custom Archive destroy&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- what? query domain and data&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- when? schedule: trigger on demand / once with date from catalog&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="920" y="510" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XWH6-G-QCLqWxmdfOk9X-17" value="Replace with" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="795" y="525" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XWH6-G-QCLqWxmdfOk9X-20" value="Deletion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="250" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
